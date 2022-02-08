@@ -1,4 +1,4 @@
-# HTML-and-CSS-Projects
+# HTML and CSS Projects
 <img src="https://twincitycourses.com/wp-content/uploads/2018/06/twincityhtmlcss.jpg" width="380" height="250">
 
 ### Welcome to my HTML and CSS Projects repository!
