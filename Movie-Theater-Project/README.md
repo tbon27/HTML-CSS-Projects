@@ -1,5 +1,5 @@
 # Movie Theater Website
-<img src="https://github.com/tbon27/HTML-CSS-Projects/blob/main/Movie-Theater-Project/Img/readmeSS1.png" width="380" height="250"> <img src="https://github.com/tbon27/HTML-CSS-Projects/blob/main/Movie-Theater-Project/Img/readmeSS2.png" width="380" height="250">
+<img src="https://github.com/tbon27/HTML-CSS-Projects/blob/main/Movie-Theater-Project/Img/readmeSS1.png" width="400" height="270"> <img src="https://github.com/tbon27/HTML-CSS-Projects/blob/main/Movie-Theater-Project/Img/readmeSS2.png" width="380" height="250">
 
 ### Welcome to my Movie Theater Wesbite project repository!
 
