@@ -7,8 +7,8 @@ The purpose of this repository is to store HTML/CSS projects for **The Tech Acad
 
 ## Projects
 
-* [Hyrule Resorts (Reservation) Site](Basic_HTML_and_CSS/Resort_Project/index.html)
-* [Movie Theater (Wayne Theaters) Site](Basic_HTML_and_CSS/bootstrap4_project/wayne_theaters.html)
+* [Hyrule Resorts (Reservation) Site](https://github.com/tbon27/HTML-CSS-Projects/tree/main/Resort-Project)
+* [Movie Theater (Wayne Theaters) Site](https://github.com/tbon27/HTML-CSS-Projects/tree/main/Movie-Theater-Project)
 
 ### Hyrule Resorts Site
 This page is an example home page for a Fantasy travel company. It's styled using CSS and contains a navbar, image containers, and a form.
