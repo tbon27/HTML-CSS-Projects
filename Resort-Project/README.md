@@ -1,5 +1,6 @@
 # Vacation Resort Website Project
 <img src="https://github.com/tbon27/HTML-CSS-Projects/blob/main/Resort-Project/images/testScreenshot1.png" width="380" height="250">
+<img src="https://github.com/tbon27/HTML-CSS-Projects/blob/main/Resort-Project/images/testScreenshot2.png" width="380" height="250">
 
 ### Welcome to my HTML and CSS Projects repository!
 
