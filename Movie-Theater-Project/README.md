@@ -1,7 +1,7 @@
 # Movie Theater Website
 <img src="https://github.com/tbon27/HTML-CSS-Projects/blob/main/Movie-Theater-Project/Img/readmeSS1.png" width="500" height="230"> <img src="https://github.com/tbon27/HTML-CSS-Projects/blob/main/Movie-Theater-Project/Img/readmeSS2.png" width="500" height="230">
 
-### Welcome to my Movie Theater Wesbite project repository!
+### Welcome to my Movie Theater Website project repository!
 
 The purpose of this repository is to store my project files for the Movie Theater Showtimes Website.
 
