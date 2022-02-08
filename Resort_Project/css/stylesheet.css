@@ -1,0 +1,163 @@
+body {
+  background-color: rgb(170, 255, 175);
+}
+
+nav {
+  margin-left: 0;
+  margin-top: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+
+.nav_button {
+  display: inline;
+}
+
+#dropdown1 {
+  width: 400px;
+  margin-left: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+#welcome_title {
+  margin-left: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+#gallery_header {
+  margin-left: 0;
+  margin-top: 0;
+  font-size: 38px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#gallery {
+  position: relative;
+  margin: auto;
+  width: 70%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(2, 70, 0);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(0, 126, 148);
+  margin-left: 100px;
+  text-shadow: 1px 0.5px 8px rgba(255, 237, 75, 0.6);
+}
+
+#about_article {
+  position: relative;
+  float: left;
+}
+
+#about_header {
+  text-align: center;
+}
+
+.photo-container {
+  position: relative;
+  width: 400px;
+  height: 190px;
+  background-color: #75d17d;
+  border: 2px solid black;
+  border-radius: 5%;
+  float: left;
+  margin: 5px;
+}
+
+#rsvp_section {
+  position: relative;
+  float: left;
+}
+
+#hours_section {
+  position: relative;
+  float: right;
+  bottom: -10px;
+}
+
+.photo-container .images {
+  position: absolute;
+  width: 320px;
+  height: 180px;
+  display: block;
+  margin-left: 42px;
+}
+
+/*-----------------------------
+      Select all photos in the array
+  -----------------------------*/
+.photo-container .photo:nth-child(-n + 9) {
+  color: #fff;
+  float: left;
+  width: 400px;
+  height: 200px;
+  margin-top: 5px;
+  position: center;
+  border-radius: 25%;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+/*-----------------------------
+      Select all photo PARAGRAPHS in the array
+  -----------------------------*/
+.photo:nth-child(-n + 9) p {
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 2px 0px 3px rgba(0, 0, 0, 0.8);
+  margin-top: 20%;
+}
+
+/*-----------------------------
+      Select all photo CLICK TO ENLARGE in the array
+  -----------------------------*/
+.photo:nth-child(-n + 9) h3 {
+  text-align: center;
+  position: relative;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+/*-----------------------------
+      HOVER, TRANSLATE, & TRANSFORM EFFECTS
+  -----------------------------*/
+.photo-container .photo:nth-child(-n + 9):hover {
+  transform: scale(0.5);
+  animation-name: race;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(2.5, 0.2, 0.3, 1);
+}
+
+/*-----------------------------
+      HOVER, TRANSLATE, & TRANSFORM EFFECTS
+  -----------------------------*/
+@keyframes race {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+    transform: rotate;
+  }
+}

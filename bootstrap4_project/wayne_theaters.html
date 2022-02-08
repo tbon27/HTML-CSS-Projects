@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <title>Wayne Theaters</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- NAV BAR-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#about" id="link">About </a>
+            </li>
+            
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#showtimes" id="link">Showtimes</a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#deals" id="link">Deals</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-primary my-2 my-sm-0 text-light"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+      <!-- END NAV BAR-->
+
+      <!--- JUMBOTRON -->
+      <div
+        class="jumbotron jumbotron-fluid bg-secondary text-center"
+        id="about"
+      >
+        <div class="container">
+          <h1 class="display-4 text-light">Wayne Theaters</h1>
+          <p class="lead text-light">Sit back and enjoy the show!</p>
+        </div>
+      </div>
+      <!--- END JUMBOTRON -->
+
+      <!-- COLUMNS -->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-sm">
+            <img
+              class="img-fluid"
+              src="./img/gotham.jpg"
+              alt="Super Mario movie"
+            />
+          </div>
+          <div class="col-sm">
+            <h3>Accomodations:</h3>
+            <p>
+              Located in the heart of Gotham's lively coastal mall, our
+              relentlessness has kept us alive since 1939.
+            </p>
+            <p>
+              Providing a safe viewing area to watch major motion picture is our
+              specialty.
+            </p>
+            <p>
+              All of our auditoriums are equipped with cutting edge technology
+              provided by Wayne Enterprises!
+            </p>
+            <p>
+              Our seating accomadates all guests no matter how you enjoy
+              watching movies. Those with special needs will be taken care of as
+              needed &#9855;.
+            </p>
+          </div>
+          <div class="col-sm">
+            <h3>Now Playing:</h3>
+            <ul class="list-group">
+              <!-- These buttons have a tooltip show on hover -->
+              <li class="list-group-item">
+                <button type="button" class="btn btn-secondary nav-link" data-toggle="tooltip" data-placement="right" href="#" title="Check out the Super Mario Website!">
+                  Super Mario
+                </button>
+              </li>
+              <li class="list-group-item">
+                <button type="button" class="btn btn-secondary nav-link" data-toggle="tooltip" data-placement="right" href="#" title="Check out the Sonic the Hedgehog Website!">
+                  Sonic the Hedgehog
+                </button>              
+              </li>
+              <li class="list-group-item">
+                <button type="button" class="btn btn-secondary nav-link" data-toggle="tooltip" data-placement="right" href="#" title="Check out the Mortal Kombat Website!">
+                  Mortal Kombat
+                </button>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- END COLUMNS -->
+
+      <!---- SHOWTIMES -->
+      <div id="showtimes">
+        <div class="container mx-auto" style="padding: 0 0 0 130px ">
+          <div class="row">
+            <div class="col-sm" >
+              <!--fix centering for each card-->
+              <h3>Showtimes:</h3>
+              <div
+                class="card my-2 mx-auto text-center"
+                style="width: 18rem; display: inline-block"
+              >
+                <img
+                  class="card-img-top"
+                  src="./img/mario-movie.jpg"
+                  alt="Mario movie cap"
+                  height="300px"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Super Mario</h5>
+                  <p class="card-text">
+                    Brooklyn plumbers Mario and Luigi get the shock of their lives
+                    when they discover a parallel world populated by the
+                    intelligent descendants of dinosaurs. It seems they were not
+                    destroyed by a meteor millions of years ago but hurled into
+                    another dimension and, now, they have plans to rule our world.
+                  </p>
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >12:00pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >1:30pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >3:00pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >5:30pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >7:00pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >9:30pm</span
+                  >
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div
+                class="card my-2 mx-auto text-center"
+                style="width: 18rem; display: inline-block"
+              >
+                <img
+                  class="card-img-top"
+                  src="./img/sonic-movie.jpg"
+                  alt="Mario movie cap"
+                  height="300px"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Sonic the Hedgehog</h5>
+                  <p class="card-text">
+                    The world needed a hero, it got a hedgehog. Powered with
+                    incredible speed, Sonic embraces his new home on Earth until
+                    he accidentally knocks out the power grid, sparking the
+                    attention of uncool evil genius Dr. Robotnik. Now, it is
+                    supervillain vs. supersonic in an all-out race across the
+                    globe…
+                  </p>
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >12:00pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >1:30pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >3:00pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >5:30pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >7:00pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >9:30pm</span
+                  >
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div
+                class="card my-2 mx-auto text-center"
+                style="width: 18rem; display: inline-block;"
+              >
+                <img
+                  class="card-img-top"
+                  src="./img/mk-movie.jpg"
+                  alt="Mario movie cap"
+                  height="300px"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Mortal Kombat</h5>
+                  <p class="card-text">
+                    Hunted by the fearsome warrior Sub-Zero, MMA fighter Cole
+                    Young finds sanctuary at the temple of Lord Raiden. Training
+                    with experienced fighters Liu Kang, Kung Lao and the rogue
+                    mercenary Kano, Cole prepares to stand with Earth's greatest
+                    champions to take on the enemies from Outworld...
+                  </p>
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >12:00pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >1:30pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >3:00pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >5:30pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >7:00pm</span
+                  >
+                  <span class="badge badge-pill badge-info bg-primary"
+                    >9:30pm</span
+                  >
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---- END SHOWTIMES -->
+
+      <!--- MOVIE DEALS JUMBOTRON -->
+      <div class="jumbotron jumbotron-fluid bg-dark mt-5 text-center" id="deals">
+        <div class="container">
+          <h1
+            class="display-4 hidden-sm-down"
+            style="
+              color: #fff;
+              font-family: roboto;
+              font-weight: 900;
+              text-transform: uppercase;
+            "
+          >
+            Movie Deals
+          </h1>
+          <p class="lead" style="color:white">Check out our monthly deals!</p>
+          <!--Movie Deals-->
+          <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#register">See our monthly movie deals!</button>
+          <!--End Movie Deals-->
+        </div>
+      </div>
+      <!--- END MOVIE DEALS JUMBOTRON -->
+
+      <!-- Sign up FORM -->
+      <!-- THIS IS CODE FROM INSTRUCTOR
+      <div class="row">
+        <div class="containter text-center col-md-6" id="deals">
+          <div class="container text-center">
+            <h1 class="display-5 my-4 col-lg-auto text-primary">
+              Stay current on movies!
+            </h1>
+            <div class="input-group mb-5 input-group-sm">
+              <input type="text" class="form-control" placeholder="Email" />
+              <span class="input-group-btn">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-info"
+                  data-container="body"
+                  data-toggle="popover"
+                  data-placement="top"
+                  data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+                >
+                  Sign Up
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- My Signup Form -->
+      <!-- Has a popover effect on sign up button -->
+       <div>
+        <div class="text-center">
+          <form>
+            <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1></1>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <button
+            type="button"
+            class="btn btn-secondary btn-info popover-dismiss"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="right"
+            data-content="Submit your email to receive great movie rewards!"
+          >
+            Sign Up
+          </button>
+          </form>
+        </div>
+      </div>  
+      <!-- END FORM -->
+
+      <!-- FORM MODAL -->
+      <!-- Click on monthly movie deals button to pop up form from top -->
+      <div class="modal" id="register" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Register to receive movie deals!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <fieldset class="form-group">
+                  <label for="firstname">First Name</label>
+                  <input type="text" class="form-control" id="firstname" placeholder="First name...">
+                </fieldset>
+                <fieldset class="form-group">
+                  <label for="lastname">Last Name</label>
+                  <input type="text" class="form-control" id="lastname" placeholder="Last name...">
+                </fieldset>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="text" class="form-control" id="email" placeholder="Email...">
+                </div>
+                <fieldset class="form-group">
+                  <label for="password">Password</label>
+                  <input type="text" class="form-control" id="password" placeholder="Password...">
+                </fieldset>
+              </form>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END FORM MODAL -->
+
+      <!--FOOTER NAV-->
+      <div class="container my-5">
+        <ul class="nav nav-inline">
+          <li class="nav-item">
+            <small
+              ><a class="nav-link active" href="#">Movie Rewards!</a></small
+            >
+          </li>
+          <li class="nav-item">
+            <small><a class="nav-link" href="#">movies@news.org</a></small>
+          </li>
+          <li class="nav-item">
+            <small
+              ><a class="nav-link" href="#">Info@waynetheaters.com</a></small
+            >
+          </li>
+          <li class="nav-item">
+            <small
+              ><a class="nav-link" href="#"
+                >&copy;2021 Wayne Theaters&reg;</a
+              ></small
+            >
+          </li>
+        </ul>
+      </div>
+      <!--END FOOTER NAV-->
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $('.popover-dismiss').popover({
+        trigger: 'focus'
+      }) //for popover deals and email signup
+      $('.nav-link').tooltip({placement: 'right', trigger:'hover'}) //for tool tips in now playing section
+    </script>
+  </body>
+</html>
